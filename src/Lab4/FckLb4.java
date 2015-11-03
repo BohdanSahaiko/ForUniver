@@ -13,4 +13,6 @@ public class FckLb4 extends Exception {
             if(Math.random()>0.98)
                 alrm.stop();
             alrm.toWake();
-        }}}
+        }
+    }
+}
