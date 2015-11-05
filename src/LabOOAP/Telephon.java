@@ -4,7 +4,7 @@ package LabOOAP;
  * Created by Bohdan on 03.11.2015.
  */
 abstract public class Telephon {
-int price;
+    int price;
     int time;
 
     public int getPrice() {
@@ -24,7 +24,7 @@ int price;
 
     }
 
-  protected Telephon(int time, int price) {
+    protected Telephon(int time, int price) {
         this.time = time;
         this.price = price;
     }

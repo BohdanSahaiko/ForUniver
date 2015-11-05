@@ -1,7 +1,7 @@
 package LabOOAP;
 
 
-public class Main {
+public class Main extends Exception {
     public static void main(String[] args) {
         Ifactory factory = new AmericanTelephonFactory();
         Nokia nokia = factory.getNokia();
